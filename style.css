@@ -1,0 +1,225 @@
+/* Announcements Section */
+.announcements-section {
+	background: #e9eef6;
+	color: #1e3c72;
+	padding: 18px 0 10px 0;
+	text-align: center;
+	border-bottom: 2px solid #2a5298;
+}
+.announcements-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.announcements-section h2 {
+	margin: 0 0 8px 0;
+	color: #2a5298;
+	font-size: 1.4rem;
+}
+.announcements-list {
+	list-style: disc inside;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	display: inline-block;
+}
+.announcements-list li {
+	margin-bottom: 4px;
+	font-size: 1.05rem;
+}
+/* Header Flex Layout for Logo Left */
+.header-flex {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 24px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.school-logo {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	display: block;
+	margin: 0;
+}
+.header-content {
+	flex: 1;
+}
+.header-content h1 {
+	margin: 0 0 10px 0;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	font-size: 2.4rem;
+}
+
+/* School Photo Section */
+.school-photo-section {
+	max-width: 780px;
+	background: #fff;
+	padding: 0;
+	margin: 0 auto 20px auto;
+	text-align: center;
+}
+.school-photo {
+	width: 100%;
+	height: auto;
+	max-height: 400px;
+	object-fit: cover;
+	display: block;
+}
+/* School Logo in Header */
+.school-logo {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+/* School Administrator Section */
+.admin-section {
+	margin-bottom: 40px;
+}
+.admin-container {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+.admin-photo {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%;
+	border: 3px solid #2a5298;
+	background: #fff;
+}
+.admin-info {
+	flex: 1;
+}
+.admin-info h3 {
+	margin: 0 0 8px 0;
+	color: #2a5298;
+}
+header h1 {
+	color: #fff;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f4f6f8;
+	color: #222;
+}
+
+header {
+	background: linear-gradient(90deg, #2a2c98 0%, #1e3272 100%);
+	color: #fff;
+	padding: 28px 0 20px 0;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 4px 16px 0 rgba(42,82,152,0.08);
+	border-bottom: 4px solid #ffd700;
+	z-index: 2;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.2s;
+}
+
+nav a:hover {
+	color: #ffd700;
+}
+
+main {
+	max-width: 800px;
+	margin: 30px auto;
+	background: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1, h2 {
+	color: #2a5298;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin-top: 15px;
+}
+
+input, select, button {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1em;
+}
+
+button {
+	background: #2a5298;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+button:hover {
+	background: #1e3c72;
+}
+
+#formMessage {
+	margin-top: 10px;
+	color: #2a5298;
+	font-weight: bold;
+}
+
+footer {
+	background: #2a5298;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+	width: 100%;
+}
+
+/* Mission, Vision, Quality Policy Section */
+.mvq-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	margin-bottom: 40px;
+}
+.mvq-box {
+	flex: 1;
+	background: #e9eef6;
+	border-radius: 8px;
+	padding: 20px;
+	box-shadow: 0 1px 4px rgba(42,82,152,0.07);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.mvq-box h3 {
+	color: #2a5298;
+	margin-bottom: 10px;
+}
+

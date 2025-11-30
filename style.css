@@ -185,11 +185,14 @@ button:hover {
 }
 
 footer {
-	background: #2a5298;
-	color: #fff;
-	text-align: center;
-	padding: 15px 0;
-	width: 100%;
+  background: #2a5298;
+  color: #fff;
+  text-align: center;
+  padding: 15px 5%;
+  font-size: 1rem;
+  line-height: 1.4;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Mission, Vision, Quality Policy Section */
@@ -318,8 +321,8 @@ footer {
 
   /* Footer */
   footer {
-    font-size: 0.9rem;
-    padding: 10px 0;
+    font-size: 0.85rem;
+    padding: 12px 5%;
     text-align: center;
   }
 

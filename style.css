@@ -236,39 +236,29 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* Force body and main to center everything */
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  main {
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
   /* Header layout */
   .header-flex {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     gap: 10px;
+  }
+
+  .header-content {
+    width: 100%;
+    text-align: center;
   }
 
   nav ul {
     flex-direction: column;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 
   /* MVQ section */
   .mvq-container {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 100%;
   }
 
   .mvq-box {
@@ -282,9 +272,7 @@ footer {
   .admin-container {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
-    width: 100%;
   }
 
   .admin-info {

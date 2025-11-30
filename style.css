@@ -236,48 +236,93 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .header-flex {
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-
-/* Center containers on mobile */
-	.mvq-container,
-	.admin-container,
-	.header-flex {
-  		align-items: center;
-  		justify-content: center;
-}
-
-/* Ensure boxes take full width */
-	.mvq-box,
-	.admin-info {
-  		width: 100%;
-  		max-width: 600px;
-  		margin: 0 auto;
-  		text-align: center;
-}
+	 /* Headings */
+  h1 {
+    font-size: 1.8rem;   /* smaller than desktop */
   }
 
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Body text */
+  p, li {
+    font-size: 1rem;     /* clean and readable */
+    line-height: 1.6;    /* more breathing room */
+  }
+
+  /* Navigation links */
+  nav a {
+    font-size: 1rem;
+  }
+
+  /* Announcements list */
+  .announcements-list li {
+    font-size: 1rem;
+  }
+
+  /* MVQ box text */
+  .mvq-box p {
+    font-size: 0.95rem;
+  }
+  
+  /* Stack and center header */
+  .header-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  /* Stack nav links */
   nav ul {
     flex-direction: column;
     gap: 10px;
   }
 
+  /* Stack and center MVQ boxes */
   .mvq-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .mvq-box {
     width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
   }
 
+  /* Stack and center admin section */
   .admin-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
   }
 
   .admin-photo {
     margin: 0 auto 15px auto;
+  }
+
+  .admin-info {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* Paragraph styling */
+  #about p,
+  #administrator p {
+    text-indent: 2em;
+    line-height: 2;
+    margin-bottom: 1em;
   }
 }

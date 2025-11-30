@@ -15,6 +15,7 @@
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
+                        <li><a href="achievements.html">Achievements</a></li>
                     </ul>
                 </nav>
             </div>
@@ -55,19 +56,6 @@
                 </p>
             </div>
         </section>
-       <style>
-    #about p {
-        text-indent: 2em;   /* Indent first line */
-        line-height: 2;     /* Double spacing */
-        margin-bottom: 1em; /* Extra space between paragraphs */
-    }
-
-    #administrator p {
-        text-indent: 2em;   /* Indent first line */
-        line-height: 2;     /* Double spacing */
-        margin-bottom: 1em; /* Extra space between paragraphs */
-    }
-</style>
 
   <section id="administrator" class="admin-section">
             <h2>School Administrator</h2>
@@ -126,12 +114,5 @@
         
         <p>All rights reserved.</p>
     </footer>
-    <script>
-        document.getElementById('admissionForm').onsubmit = function(e) {
-            e.preventDefault();
-            document.getElementById('formMessage').textContent = 'Thank you for your application! We will contact you soon.';
-            this.reset();
-        };
-    </script>
 </body>
 </html>

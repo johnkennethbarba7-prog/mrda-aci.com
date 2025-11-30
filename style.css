@@ -368,4 +368,44 @@ footer a {
   #formMessage {
     font-size: 0.95rem;
   }
+
+  /* Headings */
+  h1 {
+    font-size: 1.4rem;   /* smaller than desktop */
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* Body text */
+  p,
+  li {
+    font-size: 0.9rem;   /* clean and readable */
+    line-height: 1.6;    /* more breathing room */
+  }
+
+  /* Navigation links */
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  /* Announcements list */
+  .announcements-list li {
+    font-size: 0.9rem;
+  }
+
+  /* MVQ box text */
+  .mvq-box p {
+    font-size: 0.9rem;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.85rem;
+  }
 }

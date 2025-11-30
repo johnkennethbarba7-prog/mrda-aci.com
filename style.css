@@ -227,7 +227,7 @@ footer {
 		line-height: 2;     /* Double spacing */
 		margin-bottom: 1em; /* Extra space between paragraphs */
 	}
-	
+
 /* Responsive fixes */
 .header-flex,
 .admin-container,
@@ -240,6 +240,23 @@ footer {
     flex-direction: column;
     text-align: center;
     gap: 10px;
+
+/* Center containers on mobile */
+	.mvq-container,
+	.admin-container,
+	.header-flex {
+  		align-items: center;
+  		justify-content: center;
+}
+
+/* Ensure boxes take full width */
+	.mvq-box,
+	.admin-info {
+  		width: 100%;
+  		max-width: 600px;
+  		margin: 0 auto;
+  		text-align: center;
+}
   }
 
   nav ul {
